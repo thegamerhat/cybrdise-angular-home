@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1620740170155,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.81454934d4f01724ac77.js",
+        "/main-es5.81454934d4f01724ac77.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.c7766121257d4d187ef8.js",
+        "/polyfills-es5.119d2ab30887a0dd61eb.js",
+        "/runtime-es2015.a4dadbc03350107420a4.js",
+        "/runtime-es5.a4dadbc03350107420a4.js",
+        "/styles.5e8e0a6c66cefd0ab907.css",
+        "/vendor-es2015.72856354735b45a865d3.js",
+        "/vendor-es5.72856354735b45a865d3.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/archia-regular-webfont.1c7796f830ce24d1c96a.woff2",
+        "/assets/custom-fonts/archia-regular-webfont.woff",
+        "/assets/custom-fonts/archia-regular-webfont.woff2",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/terminals.png",
+        "/assets/terminals.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/archia-regular-webfont.1c7796f830ce24d1c96a.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
+    "/assets/custom-fonts/archia-regular-webfont.woff": "a9f6d7c9d52c143deb168f5e32f9ff7cefac0d7e",
+    "/assets/custom-fonts/archia-regular-webfont.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/terminals.png": "c59130b6e9a6d0433420a8c9de7c05efbcc87d60",
+    "/assets/terminals.svg": "d87da67bbe14f76b00657aee90e347851a16cc75",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "563776db269874ccbf7b3da1951bf26b5c22eec6",
+    "/main-es2015.81454934d4f01724ac77.js": "54302709f232d2f1b47d48367bf058967edaf419",
+    "/main-es5.81454934d4f01724ac77.js": "6ed095fe5786c26e8cf63554a67135a7be169342",
+    "/manifest.webmanifest": "fa921fc9e1707549424f17ca07d3d0d951e79089",
+    "/polyfills-es2015.c7766121257d4d187ef8.js": "266a789b05d5851b878828adc1d5c67a6bc1819a",
+    "/polyfills-es5.119d2ab30887a0dd61eb.js": "03b77263863e56234eef5c0f6cb9350869966eee",
+    "/runtime-es2015.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.5e8e0a6c66cefd0ab907.css": "46d28d139e86a0a9c2ad6eb01be9b36e8a5dc3a5",
+    "/vendor-es2015.72856354735b45a865d3.js": "668657fe01c6a8d43ecdf664839f875570aa2a9f",
+    "/vendor-es5.72856354735b45a865d3.js": "26744a112228138fbdf4d48ca37f483652219fb2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
