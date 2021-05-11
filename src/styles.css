@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Material Theme: Pink Blue Grey */
+
+/* @import '@angular/material/prebuilt-themes/pink-bluegrey.css'; */
+
+/****** Fonts ******/
+
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+/* Fira Sans */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+/* font-family: 'Fira Sans', sans-serif; */
+
+/* Archia Regular WebFont */
+@font-face {
+    font-family: 'Archia WebFont';
+    src: url('assets/custom-fonts/archia-regular-webfont.woff2');
+}
+/* font-family: Archia, sans-serif; */
+
+/* Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+body { 
+    background-color: #121212;
+    font-family: 'Inter', sans-serif; 
+}
+
