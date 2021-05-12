@@ -12,6 +12,7 @@
     this.tick();
     this.isDeleting = false;
   };
+
   
   TxtRotate.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
@@ -46,10 +47,10 @@
 
 
   window.onload = function() {
-    var elements = document.getElementsByClassName('txt-rotate');
+    var elements = document.getElementsByClassName('msg-rotate');
     for (var i=0; i<elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-rotate');
-      var period = elements[i].getAttribute('data-period');
+      var toRotate = elements[i].getAttribute('msg-rotate');
+      var period = elements[i].getAttribute('msg-period');
       if (toRotate) {
         new TxtRotate(elements[i], JSON.parse(toRotate), period);
       }
@@ -57,7 +58,7 @@
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.1em solid #66600000 }";
+    css.innerHTML = ".msg-rotate > .wrap { border-right: 0.1em solid #666 }";
     document.body.appendChild(css);
   };
 
