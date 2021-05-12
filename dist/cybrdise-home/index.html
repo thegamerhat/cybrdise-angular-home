@@ -8,8 +8,28 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
-<link rel="stylesheet" href="styles.5e8e0a6c66cefd0ab907.css"></head>
+<link rel="stylesheet" href="styles.58e5c531087c0529b131.css"></head>
 <body>
+
+<!-- <div class="container-md">
+<div style="background-color:#0E1113; padding: 15px;">
+
+  
+
+</div></div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- <header>
     
       <div style="border-radius: 5px; background-color: #eee; margin: 30px; display: flex; max-width:max-content; padding: 10px;">
@@ -26,71 +46,65 @@
         </ul>
     </nav>
 </header> -->
+
+<!-- <div class="navcontainer">
+<nav class="navbar">
+  <div class="navbar-header">
+    <button class="navbar-toggler" data-toggle="open-navbar1">
+      =
+    </button>
+    <a href="/">
+      <h4>CYBRDiSE</h4>
+    </a>
+  </div>
+
+  <div class="navbar-menu" id="open-navbar1">
+    <ul class="navbar-nav d-flex flex-row">
+      <li><a href="/">Home</a></li> -->
+
+
+      <!-- <li class="navbar-dropdown">
+        <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+          Categories <i class="fa fa-angle-down"></i>
+        </a>
+        <ul class="dropdown" id="my-dropdown-id">
+          <li><a href="#">Actions</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="separator"></li>
+          <li><a href="#">Seprated link</a></li>
+          <li class="separator"></li>
+          <li><a href="#">One more seprated link.</a></li>
+        </ul>
+      </li> -->
+      <!-- <li class="navbar-dropdown">
+        <a href="#" class="dropdown-toggler" data-dropdown="blog">
+          Blog <i class="fa fa-angle-down"></i>
+        </a>
+        <ul class="dropdown" id="blog">
+          <li><a href="#">Some category</a></li>
+          <li><a href="#">Some another category</a></li>
+          <li class="separator"></li>
+          <li><a href="#">Seprated link</a></li>
+          <li class="separator"></li>
+          <li><a href="#">One more seprated link.</a></li>
+        </ul>
+      </li> -->
+
+
+      <!-- <li><a href="http://blog.cybrdise.com">Blog</a></li>
+      <li><a href="http://test.cybrdise.com">Beta</a></li>
+    </ul>
+  </div>
+</nav></div> -->
+
+
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime-es2015.a4dadbc03350107420a4.js" type="module"></script><script src="runtime-es5.a4dadbc03350107420a4.js" nomodule defer></script><script src="polyfills-es5.119d2ab30887a0dd61eb.js" nomodule defer></script><script src="polyfills-es2015.c7766121257d4d187ef8.js" type="module"></script><script src="vendor-es2015.72856354735b45a865d3.js" type="module"></script><script src="vendor-es5.72856354735b45a865d3.js" nomodule defer></script><script src="main-es2015.81454934d4f01724ac77.js" type="module"></script><script src="main-es5.81454934d4f01724ac77.js" nomodule defer></script></body>
-<script>
-  var looper = 0;
-  var typeWriterText = 'CYBRDiSE!';
-  var speed = 70;
-  function typeWriter() {if (looper < typeWriterText.length) {document.getElementById("typeWriter").innerHTML += typeWriterText.charAt(looper);looper++;setTimeout(typeWriter, speed);}}
+<script src="runtime-es2015.a4dadbc03350107420a4.js" type="module"></script><script src="runtime-es5.a4dadbc03350107420a4.js" nomodule defer></script><script src="polyfills-es5.119d2ab30887a0dd61eb.js" nomodule defer></script><script src="polyfills-es2015.c7766121257d4d187ef8.js" type="module"></script><script src="scripts.430769cab612e3f0009b.js" defer></script><script src="vendor-es2015.72856354735b45a865d3.js" type="module"></script><script src="vendor-es5.72856354735b45a865d3.js" nomodule defer></script><script src="main-es2015.4dfdf14612a005d19fda.js" type="module"></script><script src="main-es5.4dfdf14612a005d19fda.js" nomodule defer></script></body>
 
-  var TxtRotate = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 200;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
+<script src="assets/custom-js/navbar.js"></script>
+<script src="assets/custom-js/typewriting.js"></script>
+<script src="assets/custom-js/winbox-bundle.js"></script>
+<script src="assets/custom-js/main-terminal.js"></script>
 
-TxtRotate.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-  var that = this;
-  var delta = 300 - Math.random() * 100;
-
-  if (this.isDeleting) { delta /= 2; }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function() {
-    that.tick();
-  }, delta);
-};
-
-window.onload = function() {
-  var elements = document.getElementsByClassName('txt-rotate');
-  for (var i=0; i<elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-rotate');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-  document.body.appendChild(css);
-};
-
-  </script>
 </html>
