@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1620825580596,
+  "timestamp": 1620913134444,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.9a05a7cd309b56c8e052.js",
-        "/main-es5.9a05a7cd309b56c8e052.js",
+        "/main-es2015.6165f84a3c03226e4694.js",
+        "/main-es5.6165f84a3c03226e4694.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.c7766121257d4d187ef8.js",
         "/polyfills-es5.119d2ab30887a0dd61eb.js",
@@ -22,8 +22,8 @@
         "/runtime-es5.a4dadbc03350107420a4.js",
         "/scripts.430769cab612e3f0009b.js",
         "/styles.58e5c531087c0529b131.css",
-        "/vendor-es2015.72856354735b45a865d3.js",
-        "/vendor-es5.72856354735b45a865d3.js"
+        "/vendor-es2015.210287c70f5a6a7c5857.js",
+        "/vendor-es5.210287c70f5a6a7c5857.js"
       ],
       "patterns": []
     },
@@ -39,7 +39,6 @@
         "/assets/custom-fonts/archia-regular-webfont.woff",
         "/assets/custom-fonts/archia-regular-webfont.woff2",
         "/assets/custom-js/main-terminal.js",
-        "/assets/custom-js/msgwriting.js",
         "/assets/custom-js/navbar.js",
         "/assets/custom-js/typewriting.js",
         "/assets/custom-js/winbox-bundle.js",
@@ -64,10 +63,9 @@
     "/archia-regular-webfont.1c7796f830ce24d1c96a.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
     "/assets/custom-fonts/archia-regular-webfont.woff": "a9f6d7c9d52c143deb168f5e32f9ff7cefac0d7e",
     "/assets/custom-fonts/archia-regular-webfont.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
-    "/assets/custom-js/main-terminal.js": "2cadc38fbcebd97794572ee427befce402850df9",
-    "/assets/custom-js/msgwriting.js": "617f487f70a5e35e887885601eb7e1a9842debe3",
+    "/assets/custom-js/main-terminal.js": "2c899dc397745c817311d66df16e5015b1a18452",
     "/assets/custom-js/navbar.js": "b87578943d8222a13da1d7e0e232a7b492b40de6",
-    "/assets/custom-js/typewriting.js": "f98078e0d3c55d761b69d420d5eb5f175fc4568e",
+    "/assets/custom-js/typewriting.js": "e7c9e52dda11526ef87511adee0805e728ecd464",
     "/assets/custom-js/winbox-bundle.js": "389749ab5c488634a03188139eeef2bea4ebb780",
     "/assets/custom-js/winbox-min.js": "7b1919dfb0455bc94e1dd6d3357e8148880b75d5",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
@@ -82,9 +80,9 @@
     "/assets/terminals.svg": "d87da67bbe14f76b00657aee90e347851a16cc75",
     "/assets/winbox-min.css": "b87764f1291fed44b7134c3e9e4984c0f383d541",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "c425c2acc31ae909f6da9045856421dcd500c2f5",
-    "/main-es2015.9a05a7cd309b56c8e052.js": "a68425d87f03955384b0d48ee28f8c3e4b126e8a",
-    "/main-es5.9a05a7cd309b56c8e052.js": "728d62cdc44c9d9b26e5cb0a6112887f924cee4d",
+    "/index.html": "8e5ee92f86077dd1c0fd477b32eb684888704334",
+    "/main-es2015.6165f84a3c03226e4694.js": "5e592f5135988f22090ab3bc8f8a205cb05f68d0",
+    "/main-es5.6165f84a3c03226e4694.js": "a8b69536561535be41e7e30e0a0d608e8488804d",
     "/manifest.webmanifest": "fa921fc9e1707549424f17ca07d3d0d951e79089",
     "/polyfills-es2015.c7766121257d4d187ef8.js": "266a789b05d5851b878828adc1d5c67a6bc1819a",
     "/polyfills-es5.119d2ab30887a0dd61eb.js": "03b77263863e56234eef5c0f6cb9350869966eee",
@@ -92,8 +90,8 @@
     "/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.430769cab612e3f0009b.js": "eac951227a57b42004a967df4be4a3e1dc764ceb",
     "/styles.58e5c531087c0529b131.css": "46d28d139e86a0a9c2ad6eb01be9b36e8a5dc3a5",
-    "/vendor-es2015.72856354735b45a865d3.js": "668657fe01c6a8d43ecdf664839f875570aa2a9f",
-    "/vendor-es5.72856354735b45a865d3.js": "26744a112228138fbdf4d48ca37f483652219fb2"
+    "/vendor-es2015.210287c70f5a6a7c5857.js": "8a6ae6ee8774c4be5b60c95e4e8f6db757c7cb17",
+    "/vendor-es5.210287c70f5a6a7c5857.js": "513afe12cc8a88026c0f8dd977f9b82c81bca591"
   },
   "navigationUrls": [
     {

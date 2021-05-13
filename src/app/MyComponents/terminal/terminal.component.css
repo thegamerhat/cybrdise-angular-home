@@ -96,6 +96,13 @@
     animation: 1s blink step-end infinite;
   }
   
+  .cursortwo {
+    font-size: 30px;
+    /* font-weight: 700; */
+    /* color: #00AA00; */
+    animation: 1s blinkgreen step-end infinite;
+  }
+  
   @keyframes blink {
     from,
     to {
@@ -104,6 +111,17 @@
   
     50% {
       color: var(--text-color);
+    }
+  }
+  
+  @keyframes blinkgreen {
+    from,
+    to {
+      color: transparent;
+    }
+  
+    50% {
+      color: #00AA00;
     }
   }
   
