@@ -14,11 +14,11 @@ about.addEventListener('click', () => {
     <p style="font-weight: bold;">Check out some of my Community Loved Projects!</p>
     <div style="font-weight: bold; text-decoration: none; color: #00aa00;">  
       <ol>
-        <li href="https://github.com/thegamerhat/quick-vm/">Quick VM</li>
-        <li href="https://github.com/thegamerhat/assistant">Linux Assistant</li>
-        <li href="https://github.com/thegamerhat/appbook">AppBook</li>
-        <li href="https://github.com/thegamerhat/windows-9.5">Windows 9.5</li>
-        <li href="https://github.com/thegamerhat/vs-code-mobile">VS Code Mobile</li>
+        <li><a href="https://github.com/thegamerhat/quick-vm/">Quick VM</a></li>
+        <li><a href="https://github.com/thegamerhat/assistant">Linux Assistant</a></li>
+        <li><a href="https://github.com/thegamerhat/appbook">AppBook</a></li>
+        <li><a href="https://github.com/thegamerhat/windows-9.5">Windows 9.5</a></li>
+        <li><a href="https://github.com/thegamerhat/vs-code-mobile">VS Code Mobile</a></li>
       </ol>
       <p>Donate: <a href="https://paypal.me/gamerhat18">PayPal</a></p>
     </div>
