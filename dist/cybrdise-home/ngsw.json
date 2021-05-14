@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1620992829354,
+  "timestamp": 1620995326946,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.5f1be9b40dac1ab5d037.js",
-        "/main-es5.5f1be9b40dac1ab5d037.js",
+        "/main-es2015.6b329fe4062c053f1450.js",
+        "/main-es5.6b329fe4062c053f1450.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.c7766121257d4d187ef8.js",
         "/polyfills-es5.119d2ab30887a0dd61eb.js",
@@ -63,7 +63,7 @@
     "/archia-regular-webfont.1c7796f830ce24d1c96a.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
     "/assets/custom-fonts/archia-regular-webfont.woff": "a9f6d7c9d52c143deb168f5e32f9ff7cefac0d7e",
     "/assets/custom-fonts/archia-regular-webfont.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
-    "/assets/custom-js/main-terminal.js": "3e368686c07edffa76328aede55ade5bb4ac8012",
+    "/assets/custom-js/main-terminal.js": "1b02ddca6403bebc8c83c9d94573142241eade60",
     "/assets/custom-js/navbar.js": "b87578943d8222a13da1d7e0e232a7b492b40de6",
     "/assets/custom-js/typewriting.js": "e7c9e52dda11526ef87511adee0805e728ecd464",
     "/assets/custom-js/winbox-bundle.js": "389749ab5c488634a03188139eeef2bea4ebb780",
@@ -80,9 +80,9 @@
     "/assets/terminals.svg": "d87da67bbe14f76b00657aee90e347851a16cc75",
     "/assets/winbox-min.css": "b87764f1291fed44b7134c3e9e4984c0f383d541",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "d58b5754148cd1799631b36b931116da5864e007",
-    "/main-es2015.5f1be9b40dac1ab5d037.js": "87596e00a014e4db83564f9219de13502571ea2f",
-    "/main-es5.5f1be9b40dac1ab5d037.js": "562af33884c3ed70601fce081744479f3d8b678d",
+    "/index.html": "bb9de7c758af173bed72d417e5c35bf00505ce39",
+    "/main-es2015.6b329fe4062c053f1450.js": "547584326fbbfd59c9416e200cafdafd0f260e9e",
+    "/main-es5.6b329fe4062c053f1450.js": "3d25cb3709e73ddfe57afe5dcea2b5358a811154",
     "/manifest.webmanifest": "fa921fc9e1707549424f17ca07d3d0d951e79089",
     "/polyfills-es2015.c7766121257d4d187ef8.js": "266a789b05d5851b878828adc1d5c67a6bc1819a",
     "/polyfills-es5.119d2ab30887a0dd61eb.js": "03b77263863e56234eef5c0f6cb9350869966eee",
