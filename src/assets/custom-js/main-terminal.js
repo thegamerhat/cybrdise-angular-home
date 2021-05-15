@@ -14,11 +14,11 @@ about.addEventListener('click', () => {
     <p style="font-weight: bold;">Check out some of my Community Loved Projects!</p>
     <div style="font-weight: bold; text-decoration: none; color: #00aa00;">  
       <ol>
-        <li href="https://github.com/thegamerhat/quick-vm/">Quick VM</li>
-        <li href="https://github.com/thegamerhat/assistant">Linux Assistant</li>
-        <li href="https://github.com/thegamerhat/appbook">AppBook</li>
-        <li href="https://github.com/thegamerhat/windows-9.5">Windows 9.5</li>
-        <li href="https://github.com/thegamerhat/vs-code-mobile">VS Code Mobile</li>
+        <li><a href="https://github.com/thegamerhat/quick-vm/">Quick VM</a></li>
+        <li><a href="https://github.com/thegamerhat/assistant">Linux Assistant</a></li>
+        <li><a href="https://github.com/thegamerhat/appbook">AppBook</a></li>
+        <li><a href="https://github.com/thegamerhat/windows-9.5">Windows 9.5</a></li>
+        <li><a href="https://github.com/thegamerhat/vs-code-mobile">VS Code Mobile</a></li>
       </ol>
       <p>Donate: <a href="https://paypal.me/gamerhat18">PayPal</a></p>
     </div>
@@ -29,12 +29,14 @@ about.addEventListener('click', () => {
     title: 'About',
     background: '#2A2A2A',
     // modal: true,
-    width: '352px',
-    height: '444px',
-    top: 0,
-    right: 0,
-    bottom: 0,
-    left: 0,
+    width: '330px',
+    height: '450px',
+    x: 'center',
+    y: '13%',
+    // top: 0,
+    // right: 0,
+    // bottom: 0,
+    // left: 0,
     mount: aboutContent,
     // onfocus: function () {
     //   this.setBackground('#00AA00')
@@ -62,12 +64,14 @@ contact.addEventListener('click', () => {
     class: ["no-full"],
     title: 'Contact',
     background: '#2A2A2A',
-    width: '352px',
-    height: '420px',
-    top: 0,
-    right: 0,
-    bottom: 0,
-    left: 0,
+    width: '325px',
+    height: '430px',
+    x: 'center',
+    y: '41%',
+    // top: 0,
+    // right: 0,
+    // bottom: 0,
+    // left: 0,
     mount: contactContent,
     // onfocus: function () {
     //   this.setBackground('#00AA00')
