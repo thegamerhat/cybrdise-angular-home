@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1620997335794,
+  "timestamp": 1621059940166,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,15 +13,15 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.0a52a657b5e7b032339d.js",
-        "/main-es5.0a52a657b5e7b032339d.js",
+        "/main-es2015.137bcdbc13790aa44099.js",
+        "/main-es5.137bcdbc13790aa44099.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.c7766121257d4d187ef8.js",
         "/polyfills-es5.119d2ab30887a0dd61eb.js",
         "/runtime-es2015.a4dadbc03350107420a4.js",
         "/runtime-es5.a4dadbc03350107420a4.js",
         "/scripts.430769cab612e3f0009b.js",
-        "/styles.aeb9c879db9efbffa28e.css",
+        "/styles.cbb5d7fbc8c23efab359.css",
         "/vendor-es2015.517108e7bc367ab5a345.js",
         "/vendor-es5.517108e7bc367ab5a345.js"
       ],
@@ -35,14 +35,10 @@
         "ignoreVary": true
       },
       "urls": [
-        "/archia-regular-webfont.1c7796f830ce24d1c96a.woff2",
-        "/assets/custom-fonts/archia-regular-webfont.woff",
         "/assets/custom-fonts/archia-regular-webfont.woff2",
         "/assets/custom-js/main-terminal.js",
-        "/assets/custom-js/navbar.js",
         "/assets/custom-js/typewriting.js",
         "/assets/custom-js/winbox-bundle.js",
-        "/assets/custom-js/winbox-min.js",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -51,23 +47,17 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/terminals.png",
-        "/assets/terminals.svg",
-        "/assets/winbox-min.css"
+        "/assets/terminals.svg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/archia-regular-webfont.1c7796f830ce24d1c96a.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
-    "/assets/custom-fonts/archia-regular-webfont.woff": "a9f6d7c9d52c143deb168f5e32f9ff7cefac0d7e",
     "/assets/custom-fonts/archia-regular-webfont.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
-    "/assets/custom-js/main-terminal.js": "de216605044242db5787660bb8f9691d58ef99ca",
-    "/assets/custom-js/navbar.js": "b87578943d8222a13da1d7e0e232a7b492b40de6",
+    "/assets/custom-js/main-terminal.js": "2f81dc691d3ce41f96b91c1ed5976c44671ff4f3",
     "/assets/custom-js/typewriting.js": "e7c9e52dda11526ef87511adee0805e728ecd464",
     "/assets/custom-js/winbox-bundle.js": "389749ab5c488634a03188139eeef2bea4ebb780",
-    "/assets/custom-js/winbox-min.js": "7b1919dfb0455bc94e1dd6d3357e8148880b75d5",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -76,20 +66,18 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/assets/terminals.png": "c59130b6e9a6d0433420a8c9de7c05efbcc87d60",
     "/assets/terminals.svg": "d87da67bbe14f76b00657aee90e347851a16cc75",
-    "/assets/winbox-min.css": "b87764f1291fed44b7134c3e9e4984c0f383d541",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "2881a5ccc8dcc0d0216d57e9ca80e6f99be3afdf",
-    "/main-es2015.0a52a657b5e7b032339d.js": "c4eda2744a95f1094f504d756504eda4f7849f57",
-    "/main-es5.0a52a657b5e7b032339d.js": "79724b474a173160009dae4ed34eb6ae4b7fe429",
+    "/index.html": "19337a67a6c57752d90085b93b9537b09fcc284a",
+    "/main-es2015.137bcdbc13790aa44099.js": "7cca32c43a0cc7630ff4ecaa631129de0ed1490e",
+    "/main-es5.137bcdbc13790aa44099.js": "1e9f375ebf2498787e82dc0d332bd0bf46a58ce0",
     "/manifest.webmanifest": "fa921fc9e1707549424f17ca07d3d0d951e79089",
     "/polyfills-es2015.c7766121257d4d187ef8.js": "266a789b05d5851b878828adc1d5c67a6bc1819a",
     "/polyfills-es5.119d2ab30887a0dd61eb.js": "03b77263863e56234eef5c0f6cb9350869966eee",
     "/runtime-es2015.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/scripts.430769cab612e3f0009b.js": "eac951227a57b42004a967df4be4a3e1dc764ceb",
-    "/styles.aeb9c879db9efbffa28e.css": "bf4f0ab8167eea0398377e39295b4ef74ea1bc97",
+    "/styles.cbb5d7fbc8c23efab359.css": "2a4d8d42d8f2bdafa06e51e4727802f183e54de5",
     "/vendor-es2015.517108e7bc367ab5a345.js": "47f013e99d6b65b47b9b22b9f6420ca1480b6c7e",
     "/vendor-es5.517108e7bc367ab5a345.js": "9dd323acbd8b13084a5a2ffef3ecc8b425018e12"
   },

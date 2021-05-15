@@ -52,9 +52,7 @@ pcredits {
   text-align:center;
   background-color: white;
 }
-
 /* Animation */
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }

@@ -58,5 +58,3 @@ contact.addEventListener('click', () => {
     mount: contactContent,
   })
 })
-
-contactBox.removeClass("no-full")

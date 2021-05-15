@@ -1,79 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
-
-/**** FONTS ****/
-
-/* Inter */
-/* font-family: 'Inter', sans-serif; */
-/* Fira Sans */
-/* font-family: 'Fira Sans', sans-serif; */
-/* Archia Regular WebFont */
-/* font-family: Archia, sans-serif; */
-
-/**** MONOSPACE FONTS ****/
-
-/* Roboto Mono */
-/* font-family: 'Roboto Mono', monospace; */
-
-@font-face {
-    font-family: 'Archia WebFont';
-    src: url('assets/custom-fonts/archia-regular-webfont.woff2');
-}
-
-
-/**** REAL CSS ****/
 
 body { 
     background-color: #121212;
-    /* font-family: 'Inter', sans-serif;  */
 }
-
 :root {
     --text-color: #00aa00;
   }
-  
   body {
     font-family: 'Roboto Mono', sans-serif;
-    /* background-color: #333; */
-    color: #ccc;
     font-size: 18px;
     line-height: 1.6;
   }
- 
- 
-  
   nav {
     width: 30%;
   }
-  
   nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  
   nav ul li {
     color: var(--text-color);
     cursor: pointer;
   }
-  
-  
-  
   .wb-body {
     background: #111;
     padding: 20px;
   }
-  
   .hidden {
     display: none;
   }
-  
   .cursor {
     font-weight: 700;
     animation: 1s blink step-end infinite;
   }
-  
   @keyframes blink {
     from,
     to {
@@ -84,4 +44,3 @@ body {
       color: var(--text-color);
     }
   }
-  

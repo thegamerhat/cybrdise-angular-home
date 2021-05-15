@@ -22,28 +22,15 @@ about.addEventListener('click', () => {
       </ol>
       <p>Donate: <a href="https://paypal.me/gamerhat18">PayPal</a></p>
     </div>
-
-    `
-    ,
+    `,
     class: ["no-full"],
     title: 'About',
     background: '#2A2A2A',
-    // modal: true,
     width: '330px',
     height: '450px',
     x: 'center',
     y: '13%',
-    // top: 0,
-    // right: 0,
-    // bottom: 0,
-    // left: 0,
     mount: aboutContent,
-    // onfocus: function () {
-    //   this.setBackground('#00AA00')
-    // },
-    // onblur: function () {
-    //   this.setBackground('#2A2A2A')
-    // },
   })
 })
 
@@ -68,18 +55,6 @@ contact.addEventListener('click', () => {
     height: '430px',
     x: 'center',
     y: '41%',
-    // top: 0,
-    // right: 0,
-    // bottom: 0,
-    // left: 0,
     mount: contactContent,
-    // onfocus: function () {
-    //   this.setBackground('#00AA00')
-    // },
-    // onblur: function () {
-    //   this.setBackground('#2A2A2A')
-    // },
   })
 })
-
-contactBox.removeClass("no-full")
