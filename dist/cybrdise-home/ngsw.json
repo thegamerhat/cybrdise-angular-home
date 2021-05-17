@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1621258343014,
+  "timestamp": 1621258847781,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -35,10 +35,10 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/custom-fonts/archia-regular-webfont.woff2",
         "/assets/custom-js/main-terminal.js",
         "/assets/custom-js/typewriting.js",
         "/assets/custom-js/winbox-bundle.js",
+        "/assets/github-icon.svg",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -47,17 +47,17 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/terminals.svg"
+        "/assets/vm-logo.svg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/custom-fonts/archia-regular-webfont.woff2": "4465e492adab6788db83fbf7a55b815e70b142fb",
     "/assets/custom-js/main-terminal.js": "2f81dc691d3ce41f96b91c1ed5976c44671ff4f3",
     "/assets/custom-js/typewriting.js": "e7c9e52dda11526ef87511adee0805e728ecd464",
     "/assets/custom-js/winbox-bundle.js": "389749ab5c488634a03188139eeef2bea4ebb780",
+    "/assets/github-icon.svg": "995cccf0b2688b8c383b2f23330e7888b2510e7e",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -66,7 +66,7 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/assets/terminals.svg": "d87da67bbe14f76b00657aee90e347851a16cc75",
+    "/assets/vm-logo.svg": "1d15fa88fab58b89d8487ded0113b1eb34195227",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/index.html": "ebba30bb387a1339da7a3c2d74011d47c73d5c41",
     "/main-es2015.a7cf4fad818d158460e5.js": "fccfc63102a62b7f6985926b583ceda29a210847",
