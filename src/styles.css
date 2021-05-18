@@ -50,9 +50,9 @@ body {
 /* Navbar */
 
   .nav-card {
-    max-width: 300px;
+    max-width: 280px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
