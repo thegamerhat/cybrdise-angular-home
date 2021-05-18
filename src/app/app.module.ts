@@ -8,13 +8,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TerminalComponent } from './MyComponents/terminal/terminal.component';
 import { NavbarComponent } from './MyComponents/navbar/navbar.component';
 import { WavesComponent } from './MyComponents/waves/waves.component';
+import { HomepageContentComponent } from './MyComponents/homepage-content/homepage-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TerminalComponent,
     NavbarComponent,
-    WavesComponent
+    WavesComponent,
+    HomepageContentComponent
   ],
   imports: [
     BrowserModule,

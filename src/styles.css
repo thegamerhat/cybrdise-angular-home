@@ -50,12 +50,13 @@ body {
 /* Navbar */
 
   .nav-card {
-    max-width: 280px;
+    width: auto;
     margin: auto;
     margin-top: 8px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: baseline;
+    justify-content: center;
 }
 
   .nav-btn {
