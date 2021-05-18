@@ -46,3 +46,72 @@ body {
       color: var(--text-color);
     }
   }
+
+/* Navbar */
+
+  .nav-card {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+  .nav-btn {
+    font-size: 16px;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-color: #00000000;
+    color: #00AA00;
+    width: auto;
+    background-color:#1E1E1E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color:#2e2e2e;
+}
+
+/* 
+.nav-card-dark {
+    text-decoration: none;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: #1E1E1E;
+    width: 400px;
+    height: auto;
+    border-width: 0px;
+    box-shadow: black;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.pro-card-dark:hover {
+    background-color: #212121;
+}
+*/
+
+.nav-theme {
+  text-align: center; 
+  font-weight: 500;
+  font-family: monospace;
+}
+
+/* About btn */
+
+.aboutButton {
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.contactButton {
+  justify-content:flex-end;
+  align-items:flex-end;
+}
