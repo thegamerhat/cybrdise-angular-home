@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from './Project';
 
 @Component({
   selector: 'app-homepage-content',
@@ -7,7 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageContentComponent implements OnInit {
 
-  constructor() { }
+  projects:Project[];
+
+  constructor() {
+    this.projects = [
+      {
+       id: 1,
+       name: 'Quick VM',
+       logo: '../assets/vm-logo.svg',
+       description: 'Make a Windows VM in under 100 seconds!',
+       projectPageLink: '#',
+       gitLink: 'https://github.com/thegamerhat/quick-vm/',
+       blogLink: 'https://blog.cybrdise.com/posts/quick-vm/',
+      },
+  ];
+  }
 
   ngOnInit(): void {
   }

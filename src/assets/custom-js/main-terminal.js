@@ -11,8 +11,8 @@ about.addEventListener('click', () => {
     </h2>
     <p>Hi! I am an <span style="color: #0F94D2;">Arch</span> user btw.</p>
     
-    <p style="font-weight: bold;">Check out some of my Community Loved Projects!</p>
-    <div style="font-weight: bold; text-decoration: none; color: #00aa00;">  
+    <p>Check out some of my Community Loved Projects!</p>
+    <div style="text-decoration: none; color: #00aa00;">  
       <ol>
         <li><a href="https://github.com/thegamerhat/quick-vm/">Quick VM</a></li>
         <li><a href="https://github.com/thegamerhat/assistant">Linux Assistant</a></li>
@@ -42,9 +42,9 @@ contact.addEventListener('click', () => {
     </h2>
     <div>
       <p>Email: <a href="mailto:gamerhat18@protonmail.com">gamerhat18@pm.me</a></p>
+      <p>Discord: @gamerhat#2074</p>
       <p>Telegram: <a href="https://t.me/thegamerhat">thegamerhat</a></p>
       <p>GitHub: <a href="https://github.com/thegamerhat">thegamerhat</a></p>
-      <p>Discord: @gamerhat#2074</p>
       <p>Twitter: <a href="https://twitter.com/thegamerhat">thegamerhat</a></p>
       <p>Instagram: <a href="https://instagram.com/thegamerhat">thegamerhat</a></p>
     </div>`,

@@ -1,13 +1,13 @@
-<div class="pro-card">
+<div *ngFor="let project of projects" class="pro-card">
 
     <div class="pro-card-dark">
 
         <div class="d-flex flex-column">
-            <img src="../assets/vm-logo.svg"
+            <img src="{{project.logo}}"
                 style="
                 margin-bottom: auto; 
                 margin-top: auto; 
-                margin-left: 20px;
+                margin-left: 18px;
                 width: auto;
                 max-width: 192px;
             "/>
@@ -15,7 +15,6 @@
 
         <div class="d-flex flex-column" 
             style="
-            margin-left: auto;
             text-align: center;
             margin-top: 20px; 
             max-width: 270px;
@@ -27,12 +26,14 @@
                 font-weight: 800;
                 margin-top: -10px; 
                 color: #2484F0; 
-            ">Quick VM</div>
+            ">{{project.name}}</div>
 
             <div style="
+                margin-left: 10px;
                 margin-top: 10px; 
                 color: white;
-            ">Make a Windows VM in under 100 seconds!</div>
+                font-size: 17px;
+            ">{{project.description}}</div>
 
         </div>
 
@@ -46,7 +47,7 @@
             <button class="pro-btn m-2">
                 
                 <a style="text-decoration: none; color:white;" 
-                href="https://blog.cybrdise.com/posts/quick-vm/">📑 Read Blog</a>
+                href="{{project.blogLink}}">📑 Read More</a>
 
             </button>
 
@@ -56,7 +57,7 @@
                 width="20" src="../assets/github-icon.svg"/>
 
                 <a style="text-decoration: none; color:white;"
-                href="https://github.com/thegamerhat/quick-vm/"> See on GitHub</a>
+                href="{{project.gitLink}}"> Check Out!</a>
             
             </button>
 
