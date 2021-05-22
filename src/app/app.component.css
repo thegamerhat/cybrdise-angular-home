@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+* {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+
+.animatedcard {
+    background-image: url('../assets/graphics.svg');
+    animation: dropIn 1s ease;
+}
+
+@keyframes dropIn {
+    0% {
+        opacity: 0%;
+        transform: translateY(-20%);
+    }
+ 
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+    
+}
