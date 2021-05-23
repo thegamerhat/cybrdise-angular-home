@@ -6,4 +6,6 @@ export class Project {
     projectPageLink: string
     gitLink: string
     blogLink: string
-}
+  }
+  
+  

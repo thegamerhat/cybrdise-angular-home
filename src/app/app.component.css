@@ -5,8 +5,8 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-.animatedcard {
-    background-image: url('../assets/graphics.svg');
+.animation-dropIn {
+    /* background-image: url('../assets/graphics.svg'); */
     animation: dropIn 1s ease;
 }
 
