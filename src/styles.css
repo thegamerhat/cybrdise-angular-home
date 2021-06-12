@@ -14,18 +14,7 @@ body {
     color: #FCFCFC;
     line-height: 1.6;
   }
-  nav {
-    width: 30%;
-  }
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  nav ul li {
-    color: var(--text-color);
-    cursor: pointer;
-  }
+  
   .wb-body {
     font-weight: 600;
     background: #111;

@@ -2,8 +2,9 @@
 
     <div class="pro-card-dark">
 
-        <div class="d-flex flex-column">
-            <img width="{{project.logoWidth}}" src="{{project.logo}}"
+        <div style="display: flex; flex-direction: column;">
+            <img width="{{project.logoWidth}}"
+                src="{{project.logo}}"
                 style="
                 margin-bottom: auto; 
                 margin-top: auto; 
@@ -12,8 +13,9 @@
             " alt="project-logo"/>
         </div>
 
-        <div class="d-flex flex-column" 
-            style="
+        <div style="
+            display: flex;
+            flex-direction: column;
             text-align: center;
             margin-top: 20px; 
             max-width: 270px;
@@ -40,17 +42,23 @@
 
     <span style="width: auto; margin-bottom: 20px;">
         
-        <div class="d-flex flex-row justify-content-between" 
-            style="display: flex;">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;">
 
-            <button class="pro-btn m-2">
+            <button class="pro-btn"
+                style="margin: 10px;"
+            >
                 
                 <a style="text-decoration: none; color:white;" 
                 href="{{project.blogLink}}">📑 Read More</a>
 
             </button>
 
-            <button class="pro-btn m-2">
+            <button class="pro-btn"
+                style="margin: 10px;"
+            >
 
                 <img style="vertical-align: -3px;"
                 width="20" src="../assets/github-icon.svg" alt="github-icon"/>
