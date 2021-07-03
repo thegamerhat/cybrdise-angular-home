@@ -1,6 +1,6 @@
-* {
-    font-family: 'DM Mono', monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+/* Pro- stands for Project btw :D */
 
 .pro-btn {
     font-size: 15px;
@@ -13,6 +13,22 @@
     width: auto;
     min-width: 100px;
     max-width: 190px;
+    background-color:#1E1E1E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pro-btn-coming-soon {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 34px;
+    padding-left: 34px;
+    border-color: #00000000;
+    color: white;
+    width: auto;
+    min-width: 200px;
+    max-width: 300px;
     background-color:#1E1E1E;
     border-radius: 5px;
     cursor: pointer;
@@ -43,7 +59,8 @@
 }
 
 .pro-card {
-    max-width: auto;
+    font-family: 'DM Mono', monospace;
+    max-width: 400px;
     margin: auto;
     margin-top: 20px;
     display: flex;

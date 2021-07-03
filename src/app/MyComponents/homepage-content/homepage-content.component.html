@@ -1,10 +1,12 @@
-<div *ngFor="let project of projects" class="pro-card">
+<!-- <div *ngFor="let project of projects" class="pro-card"> -->
 
-    <div class="pro-card-dark">
+<!-- SITARA -->
 
+<div class="pro-card">
+    <a class="pro-card-dark" routerLink="/optimize">
         <div style="display: flex; flex-direction: column;">
-            <img width="{{project.logoWidth}}"
-                src="{{project.logo}}"
+            <img width="90"
+                src="../assets/vm-logo.svg"
                 style="
                 margin-bottom: auto; 
                 margin-top: auto; 
@@ -12,7 +14,78 @@
                 max-width: 192px;
             " alt="project-logo"/>
         </div>
+        <div style="
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 20px; 
+            margin-right: 20px; 
+            margin-left: 30px; 
+            max-width: 270px;
+            margin-bottom: 20px;
+            color: #9c6ed8;
+            font-family: 'Inconsolata', monospace;
+        ">
+            <div style="
+                font-size: 40px; 
+                margin-top: -10px; 
+            ">Optimize</div>
+            <div style="
+                font-size: 50px;
+            ">Your PC</div>
+        </div>
+    </a>
 
+    <span style="width: auto; margin-bottom: 20px;">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;">
+           <a href="https://github.com/thegamerhat/quick-vm/">
+                <button class="pro-btn-coming-soon"
+                style="text-decoration: none; color:white;">⌛️ Coming Soon Here!
+                </button>
+            </a>
+        </div>
+    </span>
+
+    <!-- <span style="width: auto; margin-bottom: 20px;">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;">
+            <a href="https://blog.cybrdise.com/quick-vm-setup/" style="margin-right: 10px">
+                <button class="pro-btn"
+                    style="text-decoration: none; color:white;">
+                    📑 Read More
+                </button>
+            </a>
+            <a href="https://github.com/thegamerhat/quick-vm/" style="margin-left: 10px">
+                <button class="pro-btn"
+                style="text-decoration: none; color:white;">
+                    <img style="vertical-align: -3px;"
+                     width="20" src="../assets/github-icon.svg" alt="github-icon"/>
+                      Check Out!
+                </button>
+            </a>
+        </div>
+    </span> -->
+</div>
+
+<!-- QUICK VM -->
+
+<div class="pro-card">
+    <a class="pro-card-dark" routerLink="/quick-vm">
+        <div style="display: flex; flex-direction: column;">
+            <img width="90"
+                src="../assets/vm-logo.svg"
+                style="
+                margin-bottom: auto; 
+                margin-top: auto; 
+                margin-left: 18px;
+                max-width: 192px;
+            " alt="project-logo"/>
+        </div>
         <div style="
             display: flex;
             flex-direction: column;
@@ -21,55 +94,98 @@
             max-width: 270px;
             margin-bottom: 20px;
         ">
-
             <div style="
                 font-size: x-large; 
                 font-weight: 800;
                 margin-top: -10px; 
                 color: #2484F0; 
-            ">{{project.name}}</div>
-
+            ">Quick VM</div>
             <div style="
                 margin-left: 10px;
                 margin-top: 10px; 
                 color: white;
                 font-size: 17px;
-            ">{{project.description}}</div>
-
+            ">Make a Windows VM in under 100 seconds!</div>
         </div>
-
-    </div>
-
+    </a>
     <span style="width: auto; margin-bottom: 20px;">
-        
         <div style="
             display: flex;
             flex-direction: row;
             justify-content: space-between;">
-
-            <button class="pro-btn"
-                style="margin: 10px;"
-            >
-                
-                <a style="text-decoration: none; color:white;" 
-                href="{{project.blogLink}}">📑 Read More</a>
-
-            </button>
-
-            <button class="pro-btn"
-                style="margin: 10px;"
-            >
-
-                <img style="vertical-align: -3px;"
-                width="20" src="../assets/github-icon.svg" alt="github-icon"/>
-
-                <a style="text-decoration: none; color:white;"
-                href="{{project.gitLink}}"> Check Out!</a>
-            
-            </button>
-
+            <a href="https://blog.cybrdise.com/quick-vm-setup/" style="margin-right: 10px">
+                <button class="pro-btn"
+                    style="text-decoration: none; color:white;">
+                    📑 Read More
+                </button>
+            </a>
+            <a href="https://github.com/thegamerhat/quick-vm/" style="margin-left: 10px">
+                <button class="pro-btn"
+                style="text-decoration: none; color:white;">
+                    <img style="vertical-align: -3px;"
+                     width="20" src="../assets/github-icon.svg" alt="github-icon"/>
+                      Check Out!
+                </button>
+            </a>
         </div>
-
     </span>
+</div>
 
+<!-- PRISM -->
+
+<div class="pro-card">
+    <a class="pro-card-dark" routerLink="">
+        <div style="display: flex; flex-direction: column;">
+            <img width="100"
+                src="../assets/Prism.svg"
+                style="
+                margin-bottom: auto; 
+                margin-top: auto; 
+                margin-left: 18px;
+                max-width: 192px;
+            " alt="project-logo"/>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 20px; 
+            max-width: 270px;
+            margin-bottom: 20px;
+        ">
+            <div style="
+                font-size: x-large; 
+                font-weight: 800;
+                margin-top: -10px; 
+                color: #2484F0; 
+            ">Prism</div>
+            <div style="
+                margin-left: 0px;
+                margin-top: 10px; 
+                color: white;
+                font-size: 17px;
+            ">The ultimate Containerization for Proprietary software!</div>
+        </div>
+    </a>
+    <span style="width: auto; margin-bottom: 20px;">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;">
+            <a href="#" style="margin-right: 10px">
+                <button class="pro-btn"
+                    style="text-decoration: none; color:white;">
+                    📑 Read More
+                </button>
+            </a>
+            <a href="#" style="margin-left: 10px">
+                <button class="pro-btn"
+                style="text-decoration: none; color:white;">
+                    <img style="vertical-align: -3px;"
+                     width="20" src="../assets/github-icon.svg"  alt="github-icon"/>
+                      Check Out!
+                </button>
+            </a>
+        </div>
+    </span>
 </div>
