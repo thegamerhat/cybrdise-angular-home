@@ -1,6 +1,8 @@
-# cybrdise-home
+# cybrdise-angular-home [OBSOLETE]
 
-New Main Angular based website at https://cybrdise.com
+Main Angular based website at https://cybrdise.com
+
+This has been replaced with the identical website made in React.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
