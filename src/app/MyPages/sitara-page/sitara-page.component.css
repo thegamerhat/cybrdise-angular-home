@@ -5,6 +5,7 @@
 .pro-btn-goback {
     font-size: 18px;
     margin-top: 40px;
+    margin-bottom: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 20px;
@@ -22,7 +23,6 @@
 .pro-btn-goback:hover {
     background-color:#2e2e2e;
 }
-
 
 /* CUBE ANIMATION */
 
@@ -61,6 +61,11 @@
     /* border-radius: 20px; */
     transform-style: preserve-3d;
 }
+
+.cube:hover {
+    background-color:#2e2e2e;
+}
+
 .wall {
     width: 80px;
     height: 80px;
@@ -70,7 +75,7 @@
     top: calc(-80px / 2);
     text-align: center;
     line-height: 100px;
-    border: solid 1px rgb(70, 70, 70);
+    border: solid 1px rgba(70, 70, 70);
     border-radius: 30px;
     
 }
@@ -87,10 +92,10 @@
     transform: translateX(calc(-80px / 2)) rotateY(-90deg);
 }
 .top {
-    transform: translateY(calc(-80px / 2)) rotateX(90deg);
+    /* transform: translateY(calc(-80px / 2)) rotateX(90deg); */
 }
 .bottom {
-    transform: translateY(calc(80px / 2)) rotateX(-90deg);
+    /* transform: translateY(calc(80px / 2)) rotateX(-90deg); */
 }
 /* animation */
 .ani-flex:nth-of-type(4) .cube:nth-of-type(1) {
@@ -151,6 +156,6 @@
 }
 @keyframes color {
     100% {
-        background-color: rgb(70, 70, 70);
-   }
+        background-color: rgba(70, 70, 70, 0);
+    }
 }
