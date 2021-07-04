@@ -25,8 +25,9 @@ import { HomepageComponent } from './MyComponents/homepage/homepage.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: 'quick-vm', component: QuickvmPageComponent},
       {path: 'optimize', component: SitaraPageComponent},
+      {path: 'quick-vm', component: SitaraPageComponent},
+      {path: 'prism', component: SitaraPageComponent},
       {path: '', component: HomepageComponent},
     ]),
     BrowserModule,

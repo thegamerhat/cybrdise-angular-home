@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1621430073779,
+  "timestamp": 1625390594997,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,17 +13,16 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.d0a76a44423760796d62.js",
-        "/main-es5.d0a76a44423760796d62.js",
+        "/main-es2015.6ed84bff4ac42e8b4cc5.js",
+        "/main-es5.6ed84bff4ac42e8b4cc5.js",
         "/manifest.webmanifest",
-        "/polyfills-es2015.c7766121257d4d187ef8.js",
-        "/polyfills-es5.119d2ab30887a0dd61eb.js",
+        "/polyfills-es2015.0a55e92c5091b612a0de.js",
+        "/polyfills-es5.cdf4d2b5156e6e0d165e.js",
         "/runtime-es2015.a4dadbc03350107420a4.js",
         "/runtime-es5.a4dadbc03350107420a4.js",
-        "/scripts.430769cab612e3f0009b.js",
-        "/styles.11fffb7c563e521c2332.css",
-        "/vendor-es2015.85252ea66976c14360ce.js",
-        "/vendor-es5.85252ea66976c14360ce.js"
+        "/styles.89d82ff9e3bdadbff98b.css",
+        "/vendor-es2015.07dab1e13795eca91f9d.js",
+        "/vendor-es5.07dab1e13795eca91f9d.js"
       ],
       "patterns": []
     },
@@ -35,10 +34,13 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/Prism.svg",
+        "/assets/card.svg",
         "/assets/custom-js/main-terminal.js",
         "/assets/custom-js/typewriting.js",
         "/assets/custom-js/winbox-bundle.js",
         "/assets/github-icon.svg",
+        "/assets/graphics.svg",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -47,17 +49,21 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/vm-logo.svg"
+        "/assets/vm-logo.svg",
+        "/assets/vm-logo.svg.2021_05_24_17_02_46.0.svg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/Prism.svg": "3abd60a3ce51d4a2e6fe33ddf7798fcf88d0592c",
+    "/assets/card.svg": "4f9bf9d4f152aa95e77a08b1e13566f584c189e3",
     "/assets/custom-js/main-terminal.js": "75aa7bfb685fb303339b9afd9fcda8623b7fc0cd",
     "/assets/custom-js/typewriting.js": "e7c9e52dda11526ef87511adee0805e728ecd464",
     "/assets/custom-js/winbox-bundle.js": "389749ab5c488634a03188139eeef2bea4ebb780",
     "/assets/github-icon.svg": "995cccf0b2688b8c383b2f23330e7888b2510e7e",
+    "/assets/graphics.svg": "08d9713b6231092df22597fb7c972f558a8c0d9b",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -66,20 +72,20 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/assets/vm-logo.svg": "1d15fa88fab58b89d8487ded0113b1eb34195227",
+    "/assets/vm-logo.svg": "16dfe91d45440e20ae23aaa6c0abf1b4edaf2b49",
+    "/assets/vm-logo.svg.2021_05_24_17_02_46.0.svg": "69a2f0c40b67f82551ba9fb54f83503728ae217e",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "6ca35edfd4e0d287856cb205a01520eb8862a469",
-    "/main-es2015.d0a76a44423760796d62.js": "b6ddfeaf38f31a741ff0ad8df0b132b70ce13d54",
-    "/main-es5.d0a76a44423760796d62.js": "aa0dd2ae4e719ca44764b064fc54a58b758b3152",
+    "/index.html": "614071c3a26dc3fb2e36a1710c3035dd65ddfa9d",
+    "/main-es2015.6ed84bff4ac42e8b4cc5.js": "4d9207f4500299b4981064d5c38b8988f6cb88fc",
+    "/main-es5.6ed84bff4ac42e8b4cc5.js": "91724b7d494cc6bb936ef55ca432fbb87962dbb6",
     "/manifest.webmanifest": "fa921fc9e1707549424f17ca07d3d0d951e79089",
-    "/polyfills-es2015.c7766121257d4d187ef8.js": "266a789b05d5851b878828adc1d5c67a6bc1819a",
-    "/polyfills-es5.119d2ab30887a0dd61eb.js": "03b77263863e56234eef5c0f6cb9350869966eee",
+    "/polyfills-es2015.0a55e92c5091b612a0de.js": "266a789b05d5851b878828adc1d5c67a6bc1819a",
+    "/polyfills-es5.cdf4d2b5156e6e0d165e.js": "03b77263863e56234eef5c0f6cb9350869966eee",
     "/runtime-es2015.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/scripts.430769cab612e3f0009b.js": "eac951227a57b42004a967df4be4a3e1dc764ceb",
-    "/styles.11fffb7c563e521c2332.css": "780e52436329bb63ac7d9e766553cf4496dfa7f9",
-    "/vendor-es2015.85252ea66976c14360ce.js": "c2284d3cc40313e1e874a8679d6244c25673e648",
-    "/vendor-es5.85252ea66976c14360ce.js": "a027ee32be5a0e599feb6f5f9947bec5553cf53e"
+    "/styles.89d82ff9e3bdadbff98b.css": "a60623e4367c5aceed09f222abb00b64c3ac5a8c",
+    "/vendor-es2015.07dab1e13795eca91f9d.js": "5534849b53ce0e64b6e13cbf4cf90e9a265cf327",
+    "/vendor-es5.07dab1e13795eca91f9d.js": "49e16863a104bea256ff8fc3c18836da39206bcc"
   },
   "navigationUrls": [
     {
